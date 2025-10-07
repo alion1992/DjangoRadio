@@ -1,0 +1,41 @@
+# --- Archivos y carpetas del entorno virtual ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Archivos de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Archivos de base de datos locales ---
+db.sqlite3
+
+# --- Archivos de configuración sensibles ---
+*.env
+.env
+*.ini
+*.cfg
+*.conf
+secrets.json
+
+# --- Archivos temporales o de logs ---
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# --- Archivos del sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de migraciones compiladas (opcionales) ---
+# Puedes comentar esta línea si quieres versionarlas
+*/migrations/__pycache__/
+*/migrations/*.pyc
