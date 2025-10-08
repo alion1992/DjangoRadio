@@ -3,7 +3,7 @@ from datetime import date
 
 # Create your models here.
 class Direccion(models.Model):
-    CIUDADES = ['CIUDAD REAL', 'ARGAMASILLA', 'PUERTOLLANO', 'ALMODOVAR']
+    CIUDADES = [('CR','CIUDAD REAL'), ('ARG','ARGAMASILLA'), ('PUER','PUERTOLLANO'), ('AML','ALMODOVAR')]
     calle = models.CharField(max_length=10)
     numero = models.IntegerField()
     ciudad = models.CharField(choices=CIUDADES)
@@ -17,8 +17,11 @@ class Usuario(models.Model):
     fecha_nacimiento = models.DateField()
     telefono = models.CharField(max_length=12)
     email = models.EmailField()
-    direccion = models.ForeignKey(Direccion,on_delete=models.CASCADE)
+    direccion = models.ForeignKey(Direccion,on_delete=models.CASCADE,null=True,blank=True)
     activo = models.BooleanField(default=True)
+
+    def __str__(self):
+        return f"{self.nombre} {self.apellido} {self.nick} {self.id}"
 
     def calcular_edad(self):
         hoy = date.today()
@@ -36,7 +39,7 @@ class Cancion(models.Model):
     duracion = models.IntegerField()
 
 class Autor(models.Model):
-    GENEROS = ['Pop','Rap','Reggeton','Electronica']
+    GENEROS = [('Pop','Pop'),('Rap','Rap'),('Reggeton','Reggeton'),('Electronica','Electronica')]
     nombre = models.CharField(max_length=20)
     apellido = models.CharField(max_length=20)
     genero = models.CharField(choices=GENEROS,max_length=12)
