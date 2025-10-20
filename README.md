@@ -1,3 +1,5 @@
+Tabla de endpoints
+
 | Método | Ruta                                 | Descripción                 | Body | Auth |
 | -----: | ------------------------------------ | --------------------------- | ---- | ---- |
 |    GET | `/obtenerCancion/<id>/` *(ver nota)* | Devuelve una canción por id | —    | —    |
