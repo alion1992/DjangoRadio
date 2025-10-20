@@ -16,3 +16,4 @@ Ejemplo de Json
   "ano_lanzamiento": 1992,
   "autor_id": 2
 }
+{"nombre": "Imagine", "duracion": 183}
