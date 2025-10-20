@@ -9,11 +9,11 @@ Tabla de endpoints
 
 Ejemplo de Json
 
-'''json
+```json
 {
   "nombre": "Cancion de Francisco con autor",
   "duracion": 354,
   "ano_lanzamiento": 1992,
   "autor_id": 2
 }
-{"nombre": "Imagine", "duracion": 183}
+
