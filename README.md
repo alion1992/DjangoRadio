@@ -1,4 +1,4 @@
-Tabla de endpoints
+### Tabla de endpoints
 
 | Método | Ruta                                 | Descripción                 | Body | Auth | Autor |
 | -----: | ------------------------------------ | --------------------------- | ---- | ---- | ------|
