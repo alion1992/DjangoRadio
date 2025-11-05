@@ -7,7 +7,7 @@
 |    GET | `/obtenerCanciones/`                 | Lista todas las canciones   | —    | —    |       |
 
 
-Ejemplo de Json
+<h3>Ejemplo de Json</h3>
 
 ```json
 {
@@ -16,4 +16,10 @@ Ejemplo de Json
   "ano_lanzamiento": 1992,
   "autor_id": 2
 }
+
+| **_sssssss_** | **ssss** | **_ssss_** | **sssss** | **sssss** |
+|--------------:|----------|------------|-----------|-----------|
+| Edu           | Edj      | Ddj        | DDnmd     | DMDMD     |
+|               |          |            |           |           |
+|               |          |            |           |           |
 
