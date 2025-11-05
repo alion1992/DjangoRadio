@@ -1,10 +1,10 @@
 Tabla de endpoints
 
-| Método | Ruta                                 | Descripción                 | Body | Auth |
-| -----: | ------------------------------------ | --------------------------- | ---- | ---- |
-|    GET | `/obtenerCancion/<id>/`              | Devuelve una canción por id | —    | —    |
-|   POST | `/addCancion/`                       | Crea una nueva canción      | JSON | —    |
-|    GET | `/obtenerCanciones/`                 | Lista todas las canciones   | —    | —    |
+| Método | Ruta                                 | Descripción                 | Body | Auth | Autor |
+| -----: | ------------------------------------ | --------------------------- | ---- | ---- | ------|
+|    GET | `/obtenerCancion/<id>/`              | Devuelve una canción por id | —    | —    |       |
+|   POST | `/addCancion/`                       | Crea una nueva canción      | JSON | —    |       |
+|    GET | `/obtenerCanciones/`                 | Lista todas las canciones   | —    | —    |       |
 
 
 Ejemplo de Json
