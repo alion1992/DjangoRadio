@@ -20,7 +20,7 @@
 <h3>Ejemplo de crear carta</h3>
 
 ```bash
-api/addCard/<id>
+api/addCard/
 ```
 El json de ejemplo para añadir una carta es:
 
