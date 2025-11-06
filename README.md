@@ -1,8 +1,8 @@
 ### Tabla de endpoints
 
-| Método | Ruta                                 | Descripción                 | Body | Auth | Autor |
+| Método | Ruta                                 | Descripción                 | Body | Auth | Autor | 
 | -----: | ------------------------------------ | --------------------------- | ---- | ---- | ------|
-|    GET | `/obtenerCancion/<id>/`              | Devuelve una canción por id | —    | —    |       |
+|    GET | `/obtenerCancion/<id>/`              | Devuelve una canción por id | —    | —    | Juan  |
 |   POST | `/addCancion/`                       | Crea una nueva canción      | JSON | —    |       |
 |    GET | `/obtenerCanciones/`                 | Lista todas las canciones   | —    | —    |       |
 
@@ -17,5 +17,17 @@
   "autor_id": 2
 }
 ```
+<h3>Ejemplo de crear carta</h3>
+
+```bash
+api/addCard/<id>
+```
+El json de ejemplo para añadir una carta es:
+
+```json
+"carta" {
+  "nombre" : "Fran"
+}
+
 
 
