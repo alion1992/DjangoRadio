@@ -30,4 +30,5 @@ El json de ejemplo para añadir una carta es:
 }
 
 
+<img width="380" height="192" alt="image" src="https://github.com/user-attachments/assets/426643ba-8fce-4002-8d91-3d2c6b67ac2a" />
 
